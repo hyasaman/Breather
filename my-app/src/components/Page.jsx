@@ -17,7 +17,7 @@ import {
 import { InfoRow } from "./InfoRow";
 
 export const MainPage = () => {
-  const [searchTerm, setSearchTerm] = useState();
+  const [searchTerm, setSearchTerm] = useState("");
   const [tag, setTag] = useState("");
   const dispatch = useDispatch();
   const busy = useSelector(state => state.busy);
